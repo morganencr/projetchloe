@@ -1,0 +1,67 @@
+body{
+    background: linear-gradient(90deg, rgba(0,177,191,1) 0%, rgba(93,225,236,1) 0%, rgba(248,119,249,1) 100%, rgba(229,61,231,1) 100%);
+    font-family: "Raleway", sans-serif;
+    color: white;
+}
+
+header {
+    margin-bottom: 120px;
+}
+.container-parent{
+    display: flex;
+    justify-content: center;
+}
+.container {
+    width: 90%;
+    display: flex;
+    border-top: 2px solid white;
+    padding-top: 15px;
+}
+.text {
+    width: 75%;
+    font-size: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.image {
+    width: 25%;
+    display: flex;
+    justify-content: center;
+}
+.image img {
+    width: 100%;
+    height: auto;
+}
+
+.retour-accueil{
+    display: flex;
+    color: white;
+    font-size: 20px;
+    font-weight: 500;
+    text-decoration: overline underline;
+}
+
+h1{
+    font-weight: 700;
+    font-size: 70px;
+    text-decoration: overline underline;
+}
+h1, h2, .text{
+    text-align: center;
+}
+h2{
+    font-size: 35px;
+    font-weight: 600;
+}
+
+.lien_creations{
+    text-decoration: none;
+    color: black;
+}
+
+.lien-insta{
+    text-decoration: none;
+    color: black;
+}
